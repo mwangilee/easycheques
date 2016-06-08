@@ -24,4 +24,16 @@ Route::any('/deleteuser/{id?}', ['as' => 'deleteuser','uses' => 'UsersController
 //<editor-fold defaultstate="collapsed" desc="printcheques">
 Route::any('/printcheques', ['as' => 'printcheques','uses' => 'HomeController@printcheques']);
 Route::any('/chequerequest', ['as' => 'chequerequest','uses' => 'HomeController@chequerequest']);
-//</editor-fold>    
+//</editor-fold>
+//<editor-fold defaultstate="collapsed" desc="currencies">
+Route::get('/currencies', ['as' => 'currencies','uses' => 'HomeController@currencies']);
+Route::any('/addcurrency', ['as' => 'addcurrency','uses' => 'HomeController@addcurrency']);
+Route::any('/editcurrency/{id?}', ['as' => 'editcurrency','uses' => 'HomeController@editcurrency']);
+Route::any('/deletecurrency/{id?}', ['as' => 'deletecurrency','uses' => 'HomeController@deletecurrency']);
+//</editor-fold>
+//<editor-fold defaultstate="collapsed" desc="branches">
+Route::get('/branches', ['as' => 'branches','uses' => 'HomeController@branches']);
+Route::any('/addbranch', ['as' => 'addbranch','uses' => 'HomeController@addbranch']);
+Route::any('/editbranch/{id?}', ['as' => 'editbranch','uses' => 'HomeController@editbranch']);
+Route::any('/deletebranch/{id?}', ['as' => 'deletebranch','uses' => 'HomeController@deletebranch']);
+//</editor-fold>

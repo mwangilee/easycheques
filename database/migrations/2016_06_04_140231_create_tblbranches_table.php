@@ -14,7 +14,7 @@ class CreateTblbranchesTable extends Migration
     {
         Schema::create('tblbranches', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('branchcode');
+            $table->string('branchcode');
             $table->string('branchname');
             $table->string('address');
             $table->string('status');

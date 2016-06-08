@@ -6,7 +6,7 @@
 
     <div class="pageheader">
 
-        <h2>Printing Wizard <span>Print cheques</span></h2>
+        <h2>Cheque Requests<span></span></h2>
 
         <div class="page-bar">
 
@@ -56,7 +56,7 @@
                                 <label for="noofbooks">No of books: </label>
                                 <div class="col-sm-15">
                                     <select tabindex="3" class="chosen-select" required style="width: 240px;">
-                                        <optgroup label="Paper Size">
+                                        <optgroup label="No of books">
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="2">3</option>
@@ -72,7 +72,7 @@
                                 <label for="noofleaves">No of leaves: </label>
                                 <div class="col-sm-15">
                                     <select tabindex="3" class="chosen-select" required style="width: 240px;">
-                                        <optgroup label="Paper Size">
+                                        <optgroup label="No of leaves">
                                             <option value="50">50</option>
                                             <option value="100">100</option>
                                         </optgroup>
@@ -89,9 +89,10 @@
                                 <label for="branch">Originating Branch: </label>
                                 <div class="col-sm-15">
                                     <select tabindex="3" class="chosen-select" required style="width: 240px;">
-                                        <optgroup label="Paper Size">
-                                            <option value="50">50</option>
-                                            <option value="100">100</option>
+                                        <optgroup label="Originating Branch">
+                                            <option value="BANJUL">BANJUL</option>
+                                            <option value="SEREKUNDA">SEREKUNDA</option>
+                                            <option value="KAIRABA">KAIRABA</option>
                                         </optgroup>
 
                                     </select>
@@ -102,9 +103,10 @@
                                 <label for="collectionbranch">Collection Branch: </label>
                                 <div class="col-sm-15">
                                     <select tabindex="3" class="chosen-select" required style="width: 240px;">
-                                        <optgroup label="Paper Size">
-                                            <option value="50">50</option>
-                                            <option value="100">100</option>
+                                        <optgroup label="Collection Branch">
+                                            <option value="BANJUL">BANJUL</option>
+                                            <option value="SEREKUNDA">SEREKUNDA</option>
+                                            <option value="KAIRABA">KAIRABA</option>
                                         </optgroup>
 
                                     </select>

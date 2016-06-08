@@ -189,8 +189,8 @@ $.ajaxSetup({
                                             <li>
                                                 <a role="button" tabindex="0"><i class="fa fa-pencil"></i> <span>Cheque/Account Maintenance</span></a>
                                                 <ul>
+                                                    <li><a href="{{url('/accounts')}}"><i class="fa fa-caret-right"></i>Customer Accounts</a></li>
                                                     <li><a href="{{url('/serials')}}"><i class="fa fa-caret-right"></i>Serial No Reconciliation</a></li>
-                                              
                                                 </ul>
                                             </li>
                                             <li>

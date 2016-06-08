@@ -14,7 +14,7 @@ class CreateTblcurrencyTable extends Migration
     {
         Schema::create('tblcurrency', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('currencycode');
+            $table->string('currencycode');
             $table->string('currencyname');
             $table->string('chequebookcode');
             $table->string('status');
